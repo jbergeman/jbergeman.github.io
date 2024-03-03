@@ -1,0 +1,66 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #e8eff1;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #0275d8; /* Blue color for headings */
+}
+
+h1 {
+    border-bottom: 2px solid #0275d8; /* Adds a blue underline to h1 */
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #d9edf7; /* Light blue background for h2 */
+    border-left: 5px solid #0275d8; /* Adds a thick blue border to the left of h2 */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+nav {
+    background-color: #033c73; /* Dark blue background for nav */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White color for nav links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ccc; /* Light grey for hover */
+}
+
+img {
+    display: block; /* Centers the image */
+    margin: 20px auto; /* Auto margins for horizontal centering */
+    border: 5px solid #0275d8; /* Adds a blue border around the image */
+}
+
+img + p {
+    text-align: center; /* Centers the caption text under the image */
+    color: #0275d8; /* Blue color for the image caption */
+    font-style: italic;
+}
